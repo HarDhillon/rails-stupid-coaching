@@ -1,0 +1,27 @@
+<h1>Stupid Coaching</h1>
+
+<div class='d-flex'>
+
+ <div class="grey-tab">
+ </div>
+
+ <div>
+  <p><%= params['question'] %></p>
+  <p>-You</p>
+ </div>
+
+</div>
+
+<div class='coach d-flex mb-3'>
+
+  <div class="grey-tab">
+  </div>
+
+  <div>
+    <p>Answer: <strong><%= @answer %> </strong></p>
+    <p>- Your Coach</p>
+  </div>
+
+</div>
+
+<p class='ml-4'><%= link_to 'Ask a new question', '/ask' %></p>
